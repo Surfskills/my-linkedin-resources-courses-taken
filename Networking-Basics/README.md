@@ -21,6 +21,7 @@ N/B: VPNs or Virtual Private Networks allows us to virtually have a private netw
 Network gives us the ability to share resources.
 
 Enhences communication.
+![image](https://user-images.githubusercontent.com/99356176/212557313-b66542e4-94d4-4ef4-95d2-6f504d7ccf63.png)
 
 Network provides redundancy.
 
