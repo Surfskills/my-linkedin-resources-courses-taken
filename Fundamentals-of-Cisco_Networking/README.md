@@ -56,7 +56,8 @@ In this method, a station monitors the medium after it sends a frame to see if t
 The basic idea behind CSMA/CA is that the station should be able to receive while transmitting to detect a collision from different stations.  In the case of wireless networks, most of the energy is used for transmission, and the energy of the received signal increases by only 5-10% if a collision occurs. It can’t be used by the station to sense collision. Therefore CSMA/CA has been specially designed for wireless networks. 
 
     NETWORK DEVICES
-    (Hub, Repeater, Bridge, Switch, Router, Gateways and Brouter)
+
+(Hub, Repeater, Bridge, Switch, Router, Gateways and Brouter)
 
     1. Repeater 
 A repeater operates at the physical layer. Its job is to regenerate the signal over the same network before the signal becomes too weak or corrupted to extend the length to which the signal can be transmitted over the same network
@@ -98,7 +99,7 @@ NIC or network interface card is a network adapter that is used to connect the c
     Data Communications and Networking with TCPIP Protocol Suite, 6/e Paperback – 3 August 2022 by Behrouz A. Forouzan 
 
     Transmission Modes in Computer Networks 
-    (Simplex, Half-Duplex and Full-Duplex)
+
 
 Transmission mode means transferring data between two devices. It is also known as a communication mode. Buses and networks are designed to allow communication to occur between individual devices that are interconnected. There are three types of transmission mode:- 
 
