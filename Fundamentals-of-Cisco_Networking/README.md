@@ -197,9 +197,11 @@ Next Generation Firewalls are being deployed these days to stop modern security 
 Firewalls are generally of two types: Host-based and Network-based.
 
   Host- based Firewalls 
+
 Host-based firewall is installed on each network node which controls each incoming and outgoing packet. It is a software application or suite of applications, comes as a part of the operating system. Host-based firewalls are needed because network firewalls cannot provide protection inside a trusted network. Host firewall protects each host from attacks and unauthorized access.
 
-   Network-based Firewalls  
+   Network-based Firewalls 
+    
 Network firewall function on network level. In other words, these firewalls filter all incoming and outgoing traffic across the network. It protects the internal network by filtering the traffic using rules defined on the firewall. A Network firewall might have two or more network interface cards (NICs). A network-based firewall is usually a dedicated system with proprietary software installed.
 
     References
