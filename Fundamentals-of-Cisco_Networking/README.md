@@ -1,13 +1,13 @@
-        MULTIPLE ACCESS PROTOCOLS IN COMPUTER NETWORK
-    The Data Link Layer is responsible for transmission of data between two nodes. Its main functions are- 
+    MULTIPLE ACCESS PROTOCOLS IN COMPUTER NETWORK
+The Data Link Layer is responsible for transmission of data between two nodes. Its main functions are- 
 
     1. Data Link Control
     2. Multiple Access Control
 
-    Data Link control – 
+Data Link control – 
     The data link control is responsible for reliable transmission of message over transmission channel by using techniques like framing, error control and flow control.
 
-    Multiple Access Control – 
+Multiple Access Control – 
     If there is a dedicated link between the sender and the receiver then data link control layer is sufficient, however if there is no dedicated link present then multiple stations can access the channel simultaneously. Hence multiple access protocols are required to decrease collision and avoid crosstalk
     Multiple access protocols can be subdivided further as – 
 
