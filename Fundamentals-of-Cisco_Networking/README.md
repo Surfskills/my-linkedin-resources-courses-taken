@@ -213,9 +213,7 @@ https://www.cisco.com/c/en_in/products/security/firewalls/what-is-a-firewall.htm
 
 It is a network security application that monitors network or system activities for malicious activity. Major functions of intrusion prevention systems are to identify malicious activity, collect information about this activity, report it and attempt to block or stop it. 
 
- IPS typically record information related to observed events, notify security administrators of important observed events and produce reports. Many IPS can also respond to a detected threat by attempting to prevent it from succeeding. They use various response techniques, which involve the IPS stopping the attack itself, changing the security environment or changing the attack’s content. 
-
-    Intrusion Prevention System (IPS) is classified into 4 types: 
+ IPS typically record information related to observed events, notify security administrators of important observed events and produce reports. Many IPS can also respond to a detected threat by attempting to prevent it from succeeding. They use various response techniques, which involve the IPS stopping the attack itself, changing the security environment or changing the attack’s content. Intrusion Prevention System (IPS) is classified into 4 types: 
  
     1. Network-based intrusion prevention system (NIPS): 
 
