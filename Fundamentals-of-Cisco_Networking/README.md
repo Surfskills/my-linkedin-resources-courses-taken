@@ -139,6 +139,7 @@ Cisco Wireless Architecture and AP modes connect a wireless network to a wired n
     2. Cloud-based AP architecture
     3. Split MAC AP architecture.
 .
+    
     Autonomous AP architecture
 
  It provides Central Access Point, which controls all wireless networks and devices through its wireless and wired capabilities. The access point serves as a bridge between the wired and wireless networks. A device linked to an AP wireless network can send data to another wirelessly connected device without using the wired network
