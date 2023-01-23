@@ -192,16 +192,16 @@ Note: Application layer firewalls can also be used as Network Address Translator
     4. Next Generation Firewalls (NGFW) : 
 Next Generation Firewalls are being deployed these days to stop modern security breaches like advance malware attacks and application-layer attacks. NGFW consists of Deep Packet Inspection, Application Inspection, SSL/SSH inspection and many functionalities to protect the network from these modern threats. Example is Cisco ASA with firePOWER.
 
-   Types of Firewall
+    Types of Firewall
 
 Firewalls are generally of two types: Host-based and Network-based.
 
-  Host- based Firewalls 
+    Host- based Firewalls 
 
 Host-based firewall is installed on each network node which controls each incoming and outgoing packet. It is a software application or suite of applications, comes as a part of the operating system. Host-based firewalls are needed because network firewalls cannot provide protection inside a trusted network. Host firewall protects each host from attacks and unauthorized access.
 
-   Network-based Firewalls 
-    
+    Network-based Firewalls 
+
 Network firewall function on network level. In other words, these firewalls filter all incoming and outgoing traffic across the network. It protects the internal network by filtering the traffic using rules defined on the firewall. A Network firewall might have two or more network interface cards (NICs). A network-based firewall is usually a dedicated system with proprietary software installed.
 
     References
