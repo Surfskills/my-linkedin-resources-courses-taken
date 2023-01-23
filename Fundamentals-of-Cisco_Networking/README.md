@@ -42,7 +42,7 @@ In this, all stations have same superiority that is no station has more priority
     4. CSMA/CA
 
 
-Carrier Sense Multiple Access (CSMA)
+    Carrier Sense Multiple Access (CSMA)
 
 This method was developed to decrease the chances of collisions when two or more stations start sending their signals over the data link layer. Carrier Sense multiple access requires that each station first check the state of the medium before sending.
 
