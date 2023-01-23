@@ -96,7 +96,7 @@ It is also known as the bridging router is a device that combines features of bo
 NIC or network interface card is a network adapter that is used to connect the computer to the network. It is installed in the computer to establish a LAN.  It has a unique id that is written on the chip, and it has a connector to connect the cable to it. The cable acts as an interface between the computer and the router or modem. NIC card is a layer 2 device which means that it works on both the physical and data link layers of the network model. 
 
     Reference
-    Data Communications and Networking with TCPIP Protocol Suite, 6/e Paperback – 3 August 2022 by Behrouz A. Forouzan 
+Data Communications and Networking with TCPIP Protocol Suite, 6/e Paperback – 3 August 2022 by Behrouz A. Forouzan 
 
     Transmission Modes in Computer Networks 
 
