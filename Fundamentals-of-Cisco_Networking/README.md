@@ -140,7 +140,7 @@ Cisco Wireless Architecture and AP modes connect a wireless network to a wired n
     2. Cloud-based AP architecture
     3. Split MAC AP architecture.
 .
-    
+
     Autonomous AP architecture
 
  It provides Central Access Point, which controls all wireless networks and devices through its wireless and wired capabilities. The access point serves as a bridge between the wired and wireless networks. A device linked to an AP wireless network can send data to another wirelessly connected device without using the wired network
@@ -163,40 +163,44 @@ Cisco Wireless Architecture and AP modes connect a wireless network to a wired n
 
  Control and Provisioning of Wireless Access Point (CAPWAP) tunneling protocol is used to encapsulate data within a wireless network. The CAPWAP connection is made up of two distinct tunnels, 
 
-    1. CAPWAP control messages for exchanging the codes required to set up and operate the AP.
+ CAPWAP control messages for exchanging the codes required to set up and operate the AP.
 
-    2. CAPWAP data for transporting packets between wireless clients linked to a single AP
+ CAPWAP data for transporting packets between wireless clients linked to a single AP
 
 
     INTRODUCTION OF FIREWALL IN COMPUTER NETWORK
+
  A firewall is a network security device, either hardware or software-based, which monitors all incoming and outgoing traffic and based on a defined set of security rules it accepts, rejects or drops that specific traffic.
 
     Generation of Firewall or Firewall methodologies
 
     1. Packet Filtering Firewall.  
     
-    Packet filtering firewall is used to control network access by monitoring outgoing and incoming packet and allowing them to pass or stop based on source and destination IP address, protocols and ports. It analyses traffic at the transport protocol layer.
+Packet filtering firewall is used to control network access by monitoring outgoing and incoming packet and allowing them to pass or stop based on source and destination IP address, protocols and ports. It analyses traffic at the transport protocol layer.
 
     2. Stateful Inspection Firewall. 
     
-    It keeps track of the state of networks connection travelling across it, such as TCP streams. So the filtering decisions would not only be based on defined rules, but also on packet’s history in the state table.
+It keeps track of the state of networks connection travelling across it, such as TCP streams. So the filtering decisions would not only be based on defined rules, but also on packet’s history in the state table.
 
     3. Application Layer Firewall. 
     
-    Application layer firewall can inspect and filter the packets on any OSI layer, up to the application layer. It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
+Application layer firewall can inspect and filter the packets on any OSI layer, up to the application layer. It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
 
-  Application layer firewalls are hosts that run proxy servers. A proxy firewall prevents the direct connection between either side of the firewall, each packet has to pass through the proxy. It can allow or block the traffic based on predefined rules.
-  Note: Application layer firewalls can also be used as Network Address Translator(NAT).
+Application layer firewalls are hosts that run proxy servers. A proxy firewall prevents the direct connection between either side of the firewall, each packet has to pass through the proxy. It can allow or block the traffic based on predefined rules.
+Note: Application layer firewalls can also be used as Network Address Translator(NAT).
 
-    4. Next Generation Firewalls (NGFW) : Next Generation Firewalls are being deployed these days to stop modern security breaches like advance malware attacks and application-layer attacks. NGFW consists of Deep Packet Inspection, Application Inspection, SSL/SSH inspection and many functionalities to protect the network from these modern threats. Example is Cisco ASA with firePOWER.
+    4. Next Generation Firewalls (NGFW) : 
+Next Generation Firewalls are being deployed these days to stop modern security breaches like advance malware attacks and application-layer attacks. NGFW consists of Deep Packet Inspection, Application Inspection, SSL/SSH inspection and many functionalities to protect the network from these modern threats. Example is Cisco ASA with firePOWER.
 
    Types of Firewall
 
 Firewalls are generally of two types: Host-based and Network-based.
 
-  Host- based Firewalls : Host-based firewall is installed on each network node which controls each incoming and outgoing packet. It is a software application or suite of applications, comes as a part of the operating system. Host-based firewalls are needed because network firewalls cannot provide protection inside a trusted network. Host firewall protects each host from attacks and unauthorized access.
+  Host- based Firewalls 
+Host-based firewall is installed on each network node which controls each incoming and outgoing packet. It is a software application or suite of applications, comes as a part of the operating system. Host-based firewalls are needed because network firewalls cannot provide protection inside a trusted network. Host firewall protects each host from attacks and unauthorized access.
 
-   Network-based Firewalls : Network firewall function on network level. In other words, these firewalls filter all incoming and outgoing traffic across the network. It protects the internal network by filtering the traffic using rules defined on the firewall. A Network firewall might have two or more network interface cards (NICs). A network-based firewall is usually a dedicated system with proprietary software installed.
+   Network-based Firewalls  
+Network firewall function on network level. In other words, these firewalls filter all incoming and outgoing traffic across the network. It protects the internal network by filtering the traffic using rules defined on the firewall. A Network firewall might have two or more network interface cards (NICs). A network-based firewall is usually a dedicated system with proprietary software installed.
 
     References
 https://en.wikipedia.org/wiki/Firewall_(computing)
