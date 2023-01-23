@@ -70,16 +70,20 @@ A hub is a basically multi-port repeater. A hub connects multiple wires coming f
     
     - Active Hub
 These are the hubs that have their power supply and can clean, boost, and relay the signal along with the network. It serves both as a repeater as well as a wiring center. These are used to extend the maximum distance between nodes.
+
     - Passive Hub 
 These are the hubs that collect wiring from nodes and power supply from the active hub. These hubs relay signals onto the network without cleaning and boosting them and can’t be used to extend the distance between nodes.
+
     - Intelligent Hub 
 It works like an active hub and includes remote management capabilities. They also provide flexible data rates to network devices. It also enables an administrator to monitor the traffic passing through the hub and to configure each port in the hub.
 
 
     3. Bridge 
 A bridge operates at the data link layer. A bridge is a repeater, with add on the functionality of filtering content by reading the MAC addresses of the source and destination. It is also used for interconnecting two LANs working on the same protocol.
+
     - Transparent Bridges 
 These are the bridge in which the stations are completely unaware of the bridge’s existence i.e. whether or not a bridge is added or deleted from the network, reconfiguration of the stations is unnecessary. These bridges make use of two processes i.e. bridge forwarding and bridge learning.
+
     - Source Routing Bridges
 In these bridges, routing operation is performed by the source station and the frame specifies which route to follow. The host can discover the frame by sending a special frame called the discovery frame, which spreads through the entire network using all possible paths to the destination.
 
@@ -118,9 +122,11 @@ In full-duplex mode, both stations can transmit and receive simultaneously. In f
     COLLISION DOMAIN AND BROADCAST DOMAIN IN COMPUTER NETWORK
 .
     Collision Domain – 
+
 A Collision Domain is a scenario in which when a device sends out a message to the network, all other devices which are included in its collision domain have to pay attention to it, no matter if it was destined for them or not. This causes a problem because, in a situation where two devices send out their messages simultaneously, a collision will occur leading them to wait and re-transmit their respective messages, one at a time.
 
     Broadcast Domain – 
+
 A Broadcast Domain is a scenario in which when a device sends out a broadcast message, all the devices present in its broadcast domain have to pay attention to it. This creates a lot of congestion in the network, commonly called LAN congestion, which affects the bandwidth of the users present in that network. 
 From this, we can realize that the more the number of collision domains and the more the number of broadcast domains, the more efficient is the network providing better bandwidth to all its users.
 
@@ -155,9 +161,9 @@ Cisco Wireless Architecture and AP modes connect a wireless network to a wired n
 
  Control and Provisioning of Wireless Access Point (CAPWAP) tunneling protocol is used to encapsulate data within a wireless network. The CAPWAP connection is made up of two distinct tunnels, 
 
-   CAPWAP control messages for exchanging the codes required to set up and operate the AP.
+    1. CAPWAP control messages for exchanging the codes required to set up and operate the AP.
 
-   CAPWAP data for transporting packets between wireless clients linked to a single AP
+    2. CAPWAP data for transporting packets between wireless clients linked to a single AP
 
 
     INTRODUCTION OF FIREWALL IN COMPUTER NETWORK
@@ -165,11 +171,18 @@ Cisco Wireless Architecture and AP modes connect a wireless network to a wired n
 
     Generation of Firewall or Firewall methodologies
 
-    1. Packet Filtering Firewall.  Packet filtering firewall is used to control network access by monitoring outgoing and incoming packet and allowing them to pass or stop based on source and destination IP address, protocols and ports. It analyses traffic at the transport protocol layer.
+    1. Packet Filtering Firewall.  
+    
+    Packet filtering firewall is used to control network access by monitoring outgoing and incoming packet and allowing them to pass or stop based on source and destination IP address, protocols and ports. It analyses traffic at the transport protocol layer.
 
-    2. Stateful Inspection Firewall. It keeps track of the state of networks connection travelling across it, such as TCP streams. So the filtering decisions would not only be based on defined rules, but also on packet’s history in the state table.
+    2. Stateful Inspection Firewall. 
+    
+    It keeps track of the state of networks connection travelling across it, such as TCP streams. So the filtering decisions would not only be based on defined rules, but also on packet’s history in the state table.
 
-    3. Application Layer Firewall. Application layer firewall can inspect and filter the packets on any OSI layer, up to the application layer. It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
+    3. Application Layer Firewall. 
+    
+    Application layer firewall can inspect and filter the packets on any OSI layer, up to the application layer. It has the ability to block specific content, also recognize when certain application and protocols (like HTTP, FTP) are being misused.
+
   Application layer firewalls are hosts that run proxy servers. A proxy firewall prevents the direct connection between either side of the firewall, each packet has to pass through the proxy. It can allow or block the traffic based on predefined rules.
   Note: Application layer firewalls can also be used as Network Address Translator(NAT).
 
@@ -190,14 +203,12 @@ https://www.cisco.com/c/en_in/products/security/firewalls/what-is-a-firewall.htm
 
     INTRUSION PREVENTION SYSTEM (IPS)
 
-  It is a network security application that monitors network or system activities for malicious activity. Major functions of intrusion prevention systems are to identify malicious activity, collect information about this activity, report it and attempt to block or stop it. 
+It is a network security application that monitors network or system activities for malicious activity. Major functions of intrusion prevention systems are to identify malicious activity, collect information about this activity, report it and attempt to block or stop it. 
 
  IPS typically record information related to observed events, notify security administrators of important observed events and produce reports. Many IPS can also respond to a detected threat by attempting to prevent it from succeeding. They use various response techniques, which involve the IPS stopping the attack itself, changing the security environment or changing the attack’s content. 
 
     Intrusion Prevention System (IPS) is classified into 4 types: 
  
-
-
     1. Network-based intrusion prevention system (NIPS): 
 
 It monitors the entire network for suspicious traffic by analyzing protocol activity. It detects Network, transport, and application TCP/IP layer activity
