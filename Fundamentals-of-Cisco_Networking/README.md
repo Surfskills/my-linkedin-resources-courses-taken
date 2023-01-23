@@ -121,6 +121,7 @@ In full-duplex mode, both stations can transmit and receive simultaneously. In f
 
     COLLISION DOMAIN AND BROADCAST DOMAIN IN COMPUTER NETWORK
 .
+
     Collision Domain – 
 
 A Collision Domain is a scenario in which when a device sends out a message to the network, all other devices which are included in its collision domain have to pay attention to it, no matter if it was destined for them or not. This causes a problem because, in a situation where two devices send out their messages simultaneously, a collision will occur leading them to wait and re-transmit their respective messages, one at a time.
