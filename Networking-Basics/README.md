@@ -163,68 +163,70 @@ Features of QoS
 
     2.4 GHz vs. 5 GHz wireless networking.
 
- Wireless LANs use radio frequencies and one of two different bands; 2.4 gigahertz band and the five gigahertz band.
+   - Wireless LANs use radio frequencies and one of two different bands; 2.4 gigahertz band and the five gigahertz band.
 
- The 2.4 gigahertz band of frequencies gets divided into channels and we have five megahertz of bandwidth between each of those channels.
-Design to avoid overlapping
+   - The 2.4 gigahertz band of frequencies gets divided into channels and we have five megahertz of bandwidth between each of those channels.
+     
 
- The 5 GHz is the popular frequency band for wifi networks. (To be updated)
+      The 5 GHz is the popular frequency band for wifi networks. (To be updated)
 
     Network Design 
- Design is important in preventing wireless access points from interfering with one another. 
- To keep one access point from interfering with another, there is a need to have five channels of separation.
+   - Design is important in preventing wireless access points from interfering with one another. 
+   - To keep one access point from interfering with another, there is a need to have five channels of separation. 
+ 
+ N/B; Design to avoid overlapping
                             (To be updated)
 
 
     Antanna
 
-Antanna is used in transmitting and receiving radio waves.
+  - Antanna is used in transmitting and receiving radio waves.
 
-Omnidirectional antenna - They transmit radio waves in all directions perpendicular to the antenna.
+  - Omnidirectional antenna - They transmit radio waves in all directions perpendicular to the antenna.
 
-MU-MIMO, which stands for multiple user, multiple input, multiple output is a technology used to communicate with multiple clients. 
+  - MU-MIMO, which stands for multiple user, multiple input, multiple output is a technology used to communicate with multiple clients. 
 
-Directional antenna - They are used to focus radio waves to a specific direction. Coomon in Wi-Fi network.
+  - Directional antenna - They are used to focus radio waves to a specific direction. Coomon in Wi-Fi network.
 
     Emerging Trends in Networking.
     Software-defined networking (SDN)
-SDN enables us to use an application that expresses our intent for network behavior. Then that application can communicate with an SDN controller. That controller then sends appropriate commands out to our network devices all at once.
+   - SDN enables us to use an application that expresses our intent for network behavior. Then that application can communicate with an SDN controller. That controller then sends appropriate commands out to our network devices all at once.
 
-SDN controller can then be in charge of communicating with all of our devices through Southbound interfaces ( SBI).
-
-
-An API is something that lets two pieces of software communicate with each other.
-Northbound Interfaces (NBI) seats above the SDN controlller.
+  - SDN controller can then be in charge of communicating with all of our devices through Southbound interfaces ( SBI).
 
 
-The specific way the application communicates with the SDN controller is called Representational State Transfer (REST). REST communicates with an SDN controller in much the same way that a web browser communicates with a web server, using HTTP instructions. REST uses these HTTP verbs to send and request information to and from an SDN controller
+  - An API is something that lets two pieces of software communicate with each other.
+    Northbound Interfaces (NBI) seats above the SDN controlller.
 
-Extensible Markup Language(XML), and JSON or JavaScript Object Notation is used to format data flowing between an application and an SDN controller. Python language is used to write application programs on NIBs & SBIs.
+
+   - The specific way the application communicates with the SDN controller is called Representational State Transfer (REST). REST communicates with an SDN controller in much the same way that a web browser communicates with a web server, using HTTP instructions. REST uses these HTTP verbs to send and request information to and from an SDN controller
+
+   - Extensible Markup Language(XML), and JSON or JavaScript Object Notation is used to format data flowing between an application and an SDN controller. Python language is used to write application programs on NIBs & SBIs.
 
     Virtualization
 
- Virtulization is a scenarion where we have a single physical server and install multiple virtual servers on that physical server. 
+   - Virtulization is a scenarion where we have a single physical server and install multiple virtual servers on that physical server. 
 
 
-We can have single physical server hosting on which we install three virtual servers as virtual machines; Microsoft Windows Server, a Linux Server, and an Oracle Solaris Server.
+  - We can have single physical server hosting on which we install three virtual servers as virtual machines; Microsoft Windows Server, a Linux Server, and an Oracle Solaris Server.
 
-The physical server is running a piece of software called a hypervisor. A hypervisor is software that can create, start, stop and monitor multiple virtual machines.
+  - The physical server is running a piece of software called a hypervisor. A hypervisor is software that can create, start, stop and monitor multiple virtual machines.
 
-The virtual machines are logically separate from one another. Each running their own operating system but share resources of the underlying physical computer.
+  - The virtual machines are logically separate from one another. Each running their own operating system but share resources of the underlying physical computer.
 
 There are two types of hypervisors.
 
 
 
- A type one hypervisor installed on the physical computer without any underlying operating system. Example, VMware's ESXi hypervisor.
+ 1. A type one hypervisor installed on the physical computer without any underlying operating system. Example, VMware's ESXi hypervisor.
 
- A type two hypervisor that is installed on top of an existing operating system.Example,  VMware's Fusion hypervisor.
+ 2. A type two hypervisor that is installed on top of an existing operating system.Example,  VMware's Fusion hypervisor.
 
-Into variants of virtual servers is something called a containers. containers run different applications and have no knowledge of one another sharing the same underlying installation of Microsoft Windows. This reduces the storage space required on that physical server and making each container smaller and more portable.
+  - Into variants of virtual servers is something called a containers. containers run different applications and have no knowledge of one another sharing the same underlying installation of Microsoft Windows. This reduces the storage space required on that physical server and making each container smaller and more portable.
 
- Virtulization can be used to virtualize network components like virtual routers and virtual switches.
+   - Virtulization can be used to virtualize network components like virtual routers and virtual switches.
 
- We can have these physical servers reside in a data center of a cloud provider. Examples include Amazon Web Services or AWS and Microsoft Azure.
+   - We can have these physical servers reside in a data center of a cloud provider. Examples include Amazon Web Services or AWS and Microsoft Azure.
 
     Cloud Computing
 
