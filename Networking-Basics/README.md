@@ -29,13 +29,13 @@ N/B: VPNs or Virtual Private Networks allows us to virtually have a private netw
 It enables a single point of administration for network administrators.
    
     NETWORK ADDRESSES
- Media Access Control address (MAC address) is the specific physical address assigned by manufacturers to networking devices using Network Interface Card(NIC). MAC addresses have 48 bits. The bits are divides into two parts; the first 24 bits are known as the Vendors's code or Organationally Unique Identifier(OUI).
+  - Media Access Control address (MAC address) is the specific physical address assigned by manufacturers to networking devices using Network Interface Card(NIC). MAC addresses have 48 bits. The bits are divides into two parts; the first 24 bits are known as the Vendors's code or Organationally Unique Identifier(OUI).
  
 
- IP version 4 addresse is a logical address because it's an address that needs to be assigned to the device as opposed to a MAC address, which is coded into the hardware by the manufacturer. 
+  - IP version 4 addresse is a logical address because it's an address that needs to be assigned to the device as opposed to a MAC address, which is coded into the hardware by the manufacturer. 
  
 
- An IPv4 address is 32 bits in length, with four different groupings of eight bits separated by dots, and each of these eight bit groupings called octet.
+  - An IPv4 address is 32 bits in length, with four different groupings of eight bits separated by dots, and each of these eight bit groupings called octet.
  The first 16 bits of IP4 address represent the network, and the last 16 bits represent the host.
  
  N/B; There are so many network devices in the world, it's not possible for each of them to have a unique IPv4 address, Network Address Translation (NAT) provides a walk around on it.
@@ -43,9 +43,6 @@ It enables a single point of administration for network administrators.
  IP Version 6 (To be updated with a simpler explanation)
  
  
-
- 
-
 
     PARTS OF A NETWORK.  
 - Network Interface Card (NIC) is a circuitry that allow us to send and receive data on either a wired or wireless network.
