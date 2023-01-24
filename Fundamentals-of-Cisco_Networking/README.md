@@ -232,3 +232,144 @@ It examines network traffic to identify threats that generate unusual traffic fl
 It is an inbuilt software package which operates a single host for doubtful activity by scanning events that occur within that host. It detects Host application and operating system (OS) activity; network, transport, and application TCP/IP layer activity
  
 
+    Detection Method of Intrusion Prevention System (IPS):  
+
+    Signature-based detection
+
+Signature-based IDS operates packets in the network and compares with pre-built and preordained attack patterns known as signatures. 
+ 
+    Statistical anomaly-based detection
+
+Anomaly based IDS monitors network traffic and compares it against an established baseline. The baseline will identify what is normal for that network and what protocols are used. However, It may raise a false alarm if the baselines are not intelligently configured. 
+ 
+    Stateful protocol analysis detection
+
+This IDS method recognizes divergence of protocols stated by comparing observed events with pre-built profiles of generally accepted definitions of not harmful activity. 
+ 
+    Comparison of IPS with IDS: 
+The main difference between Intrusion Prevention System (IPS) with Intrusion Detection Systems (IDS) are: 
+
+Intrusion prevention systems are placed in-line and are able to actively prevent or block intrusions that are detected. 
+
+IPS can take such actions as sending an alarm, dropping detected malicious packets, resetting a connection or blocking traffic from the offending IP address. 
+
+IPS also can correct cyclic redundancy check (CRC) errors, defragment packet streams, mitigate TCP sequencing issues and clean up unwanted transport and network layer options. 
+
+    TYPES OF NETWORK TOPOLOGY
+
+    Mesh Topology:
+In a mesh topology, every device is connected to another device via a particular channel. In Mesh Topology, the protocols used are AHCP (Ad Hoc Configuration Protocols), DHCP (Dynamic Host Configuration Protocol).
+
+    Star Topology:
+In star topology, all the devices are connected to a single hub through a cable. This hub is the central node and all other nodes are connected to the central node.
+
+    Bus Topology:
+Bus topology is a network type in which every computer and network device is connected to a single cable. It is bi-directional. It is a multi-point connection and a non-robust topology because if the backbone fails the topology crashes. In Bus Topology, various MAC (Media Access Control) protocols are followed by LAN ethernet connections like TDMA, Pure Aloha, CDMA, Slotted Aloha.
+
+    Ring Topology:
+In this topology, it forms a ring connecting devices with exactly two neighboring devices. A number of repeaters are used for Ring topology with a large number of nodes, because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.
+
+The following operations take place in ring topology are : 
+
+One station is known as a monitor station which takes all the responsibility for performing the operations.
+
+To transmit the data, the station has to hold the token. After the transmission is done, the token is to be released for other stations to use.
+
+When no station is transmitting the data, then the token will circulate in the ring.
+
+There are two types of token release techniques: Early token release releases the token just after transmitting the data and Delayed token release releases the token after the acknowledgment is received from the receiver.
+
+    Tree Topology 
+In this, the various secondary hubs are connected to the central hub which contains the repeater. This data flow from top to bottom i.e. from the central hub to the secondary and then to the devices or from bottom to top i.e. devices to the secondary hub and then to the central hub. It is a multi-point connection and a non-robust topology because if the backbone fails the topology crashes.
+
+    Hybrid Topology
+This topological technology is the combination of all the various types of topologies we have studied above. It is used when the nodes are free to take any form. It means these can be individuals such as Ring or Star topology or can be a combination of various types of topologies.
+
+    CISCO IOS (CISCO INTERNETWORK OPERATING SYSTEM)
+
+Cisco IOS (Internetwork Operating System) is a proprietary operating system that runs on Cisco Systems routers and switches. The core function of Cisco IOS is to enable data communications between network nodes.
+
+In addition to routing and switching, Cisco IOS offers dozens of additional services that an administrator can use to improve the performance and security of network traffic. Such services include encryption, authentication, firewall capabilities, policy enforcement, deep packet inspection, Quality of Service (QoS), intelligent routing and proxy capability. In Cisco's Integrated Services Routers (ISRs), IOS can also support call processing and unified communications services. 
+
+Cisco IOS software releases are organized into what Cisco calls "families" and "trains." Each family shares the same code base and trains are how new IOS releases are delivered.
+
+    There are two types of IOS operating systems:
+
+IOS XE -  runs on top of a Linux kernel. IOS XE  and IOS share a lot of the same code, but IOS XR is considered to be a completely different code base. 
+
+IOS XR -  based on QNX a commercial Unix-like real-time operating system. IOS XR supports software-defined networking (SDN) and the embedded systems market.
+
+    CISCO SWITCH CONFIGURATION BASIC COMMANDS
+   
+A switch is a layer 2 device used to forward packet from one device to another within the network. It forwards the packet through one of its ports on the basis of destination MAC address and the entry in the MAC table.
+
+Following basic commands are used to configure a new switch :
+
+  Changing the hostname of a switch to GfgSwitch 
+It is used to set the name of the device.
+
+    switch(config)#hostname GfgSwitch
+    FredSwitch(config)#
+
+
+    To add a banner message :
+It provides a short message to the user who wants to access the switch.
+
+    FredSwitch(config)#banner motd &
+    
+Enter Text message. End with character '&'
+$ This is Fred floor Switch &
+
+    To set IP address in Switch :
+IP address is the address of device in network.
+
+    GfgSwitch(config)#interface vlan1
+    GfgSwitch(config-if)#ip address 172.16.10.1 255.255.255.0
+    GfgSwitch(config-if)#exit
+    GfgSwitch(config)#ip default-gateway 172.16.10.0
+
+
+    To set the current clock time 
+
+This is set the current time stored in the switch.
+
+    GfgSwitch#clock set 3:03:14 June 25 2020
+
+Apply password protection (enable password, secret password, console password and vty password) :
+
+Enable password :
+The enable password is used for securing privilege mode.
+
+    GfgSwitch(config)#enable password GFGGFG
+Enable secret password 
+
+This is also used for securing privilege mode but the difference is that it will be displayed as ciphertext(***) on the configuration file.
+
+    GfgSwitch(config)#enable secret GFGGFG
+Line console password :
+When a person will take access through console port then this password will be asked.
+
+    GfgSwitch(config)#line console 0
+    GfgSwitch(config-line)#password GFG
+    GfgSwitch(config-line)#login
+Line VTY password :
+When a person want to access a router through VTY lines (telnet or ssh) then this password will be asked.
+
+    GfgSwitch(config)#line VTY 0 2
+    GfgSwitch(config-line)#password GFGGFG
+    GfgSwitch(config-line)#exit
+
+Copy to startup-configuration file from running-configuration file :
+
+    GfgSwitch#copy running-config startup-config
+
+To watch startup-configuration file and running-configuration file :
+
+    GfgSwitch#show startup-config
+    GfgSwitch#show running-config
+Clear mac address table :
+
+Switch stores MAC addresses in MAC address table
+
+    GfgSwitch#clear mac address-table
+
