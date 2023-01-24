@@ -136,7 +136,7 @@ N/B; Publicly ratable addresses range between 192.0.2.101 and 192.0.2.199.
 - Dynamic NAT is dynamically translating multiple inside local addresses into multiple inside global addresses.
 
     NTP (Network Time Provider)
-    
+
 NTP uses internet-based time sources,. It uses UDP Port 123
 Importance. 
  Provides accurate time for the use of digital certificates, which expire at certain dates and times.
@@ -149,18 +149,17 @@ QoS is managed unfairness across the network - traffic in the network is treated
 
 Features of QoS
 
-Classification and marking - classify traffic, early on in its travel, and then market with a priority marking then it lets the next router or the next switch, look at that marking and make a forwarding decision or dropping decision based on that marking.
+  - Classification and marking - classify traffic, early on in its travel, and then market with a priority marking then it lets the next router or the next switch, look at that marking and make a forwarding decision or dropping decision based on that marking.
 
-Queuing -  When a router or switch is receiving traffic faster than it can forward it out, the router or the switch, it allocates some memory called a buffer or a queue to store that traffic.
+  - Queuing -  When a router or switch is receiving traffic faster than it can forward it out, the router or the switch, it allocates some memory called a buffer or a queue to store that traffic.
 
     Types of wireless LANs
-ad hoc wireless network -  Here two wireless devices, they can communicate directly between themselves. It is suitable for ocassional file transfer. Bluethooth.
+  1. ad hoc wireless network -  Here two wireless devices, they can communicate directly between themselves. It is suitable for ocassional file transfer. Bluethooth.
 
-Infrastructure wireless LAN - Here wireless clients, like laptops or smartphones, they communicate directly with wireless access points hardwired into the network.!
-It gives us additional management and monitoring features that we wouldn't have with an ad hoc wireless network; bandwidth utilization and security configuration.
+   2. Infrastructure wireless LAN - Here wireless clients, like laptops or smartphones, they communicate directly with wireless access points hardwired into the network. It gives us additional management and monitoring features that we wouldn't have with an ad hoc wireless network; bandwidth utilization and security configuration.
 
 
-Mesh wireless LAN - These types of access points don't need to be connected to our wired infrastructure. Mesh access point requires power to receive a signal from one access point and then retransmit that wireless signal.
+   3. Mesh wireless LAN - These types of access points don't need to be connected to our wired infrastructure. Mesh access point requires power to receive a signal from one access point and then retransmit that wireless signal.
 
     2.4 GHz vs. 5 GHz wireless networking.
 
