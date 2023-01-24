@@ -230,19 +230,19 @@ There are two types of hypervisors.
 
     Cloud Computing
 
-Cloud providers offer us plenty of cloud-based services beyond just providing a remote place to store our data. For example, software as a service or SaaS lets us access applications through a web browser. 
+  - Cloud providers offer us plenty of cloud-based services beyond just providing a remote place to store our data. For example, software as a service or SaaS lets us access applications through a web browser. 
 
 
-A SaaS application I use a lot is Google's G Suite, which gives me access to Gmail, Google Calendar, Google Sheets, lots of other applications. 
+  - A SaaS application I use a lot is Google's G Suite, which gives me access to Gmail, Google Calendar, Google Sheets, lots of other applications. 
 
-Infrastructure as a service, Software developers often benefit from using platform as a service, or PaaS, to have virtual access to a wide variety of computing platforms that they're developing software for.
+  - Infrastructure as a service, Software developers often benefit from using platform as a service, or PaaS, to have virtual access to a wide variety of computing platforms that they're developing software for.
 
-Public cloud is when the compute resources are owned and maintained by a cloud provider who shares their compute resources with multiple customers
+  - Public cloud is when the compute resources are owned and maintained by a cloud provider who shares their compute resources with multiple customers
 
-Private cloud is when company want a dedicated set of compute resources just for our organization's use. A private cloud might be hosted in our own local data center, although it could be hosted by a private cloud service provider.
+  - Private cloud is when company want a dedicated set of compute resources just for our organization's use. A private cloud might be hosted in our own local data center, although it could be hosted by a private cloud service provider.
 
 
-Many organizations use both public and private cloud computing and that type of deployment is called a hybrid cloud.
+  - Many organizations use both public and private cloud computing and that type of deployment is called a hybrid cloud.
 
 N/B; Companies set up a virtual connection between our location and the cloud provider through a virtual private network (VPN) which encrypts data flowing over that VPN.
 
@@ -250,15 +250,14 @@ N/B; Companies set up a virtual connection between our location and the cloud pr
 
 
     5G and Wi-Fi 6
-These technologies often run faster than our high speed wired LANs, which might be running at a gigabit per second.  5G is a cellular data service and Wi-Fi 6 is a wireless LAN standard.
+  - These technologies often run faster than our high speed wired LANs, which might be running at a gigabit per second.  5G is a cellular data service and Wi-Fi 6 is a wireless LAN standard.
 
     5G (fifth generation of cellular technology).  
-It uses an entirely different band of radio frequencies that are much higher frequencies than frequencies used by 3G and 4G. (20 gigabits per second.)
+  - It uses an entirely different band of radio frequencies that are much higher frequencies than frequencies used by 3G and 4G. (20 gigabits per second.)
 
-
-5G use very high frequency in the range from 30 through 300 gigahertz meaning that wavelengths of one of these radio waves is very small on the order of millimeters.These higher frequencies allow us to squeeze more data into a transmission. 
+  - 5G use very high frequency in the range from 30 through 300 gigahertz meaning that wavelengths of one of these radio waves is very small on the order of millimeters.These higher frequencies allow us to squeeze more data into a transmission. 
  
- The challenge with that is those high frequencies getting absorbed by walls and windows and lots of other material much more so than frequencies used by 4G.
+   - The challenge with that is those high frequencies getting absorbed by walls and windows and lots of other material much more so than frequencies used by 4G.
 
     Wi-Fi 6(sixth generation of Wi-Fi standards).
                 (To be updated)
