@@ -136,8 +136,7 @@ N/B; Publicly ratable addresses range between 192.0.2.101 and 192.0.2.199.
 - Dynamic NAT is dynamically translating multiple inside local addresses into multiple inside global addresses.
 
     NTP (Network Time Provider)
-
-- NTP uses internet-based time sources,. It uses UDP Port 123
+NTP uses internet-based time sources,. It uses UDP Port 123
 Importance. 
  Provides accurate time for the use of digital certificates, which expire at certain dates and times.
  Provides time a certain issue occurred for better and accurate troubleshooting.
