@@ -53,21 +53,20 @@ It enables a single point of administration for network administrators.
 
 - A router is a device used to interconnect networks. 
 
-When a router is configured with a network it is connected to, that router adds those directly connected networks to its IP routing table. 
-In networks with more than one router, those routers can exchange routing information using a routing protocol such as OSPF.
+ - When a router is configured with a network it is connected to, that router adds those directly connected networks to its IP routing table. In networks with more than one router, those routers can exchange routing information using a routing protocol such as OSPF.
 
 
 - Copper twisted pair cabling is eight conductors (eight pins) inserted into a connector using a climper tool. Twisting is done to prevent  electromagnetic interference during transmission. 
 - There are two types of shielding done to also prevent interference; unshielded twisted pair (UTP) and shielded twisted pair (STP)
 
- Plenum-rated cable is used in industries and data centers because it does not produce toxic fumes.
+ - Plenum-rated cable is used in industries and data centers because it does not produce toxic fumes.
 
- Fiber-optic cabling is used for longer distance connections with an absolutely zero electromagnetic interference.
+ - Fiber-optic cabling is used for longer distance connections with an absolutely zero electromagnetic interference.
 
- There are two primary types of fiber-optic cables; single mode fiber - SMF, and multi-mode fiber - MMF.
- 
-
- Single Mode Fiber is the most preferred because thereis no distortion.
+ There are two primary types of fiber-optic cables; 
+ 1. single mode fiber - SMF, and 
+ 2. multi-mode fiber - MMF.
+ N/B; Single Mode Fiber is the most preferred because thereis no distortion.
 
     THE OSI MODEL (Open Systems Interconnection)
 
@@ -95,49 +94,46 @@ N/B: The acrostic, Please Do Not Throw Sausage Pizza Away can help in rememberin
 Protocols
 ![protocols](https://user-images.githubusercontent.com/99356176/212560311-55792005-e8b3-4edb-b38e-b8bf7ec0b9e2.PNG)
 
- HTTP - Hypertext Transfer Protocol is the protocol used when communicating with traditional web servers. It uses TCP port 80.
+ - HTTP - Hypertext Transfer Protocol is the protocol used when communicating with traditional web servers. It uses TCP port 80.
 
- HTTP or Hypertext Transfer Protocol Secure is a secure connection with a web server, protects data from eavesdroppers. It uses TCP port 443
+ - HTTP or Hypertext Transfer Protocol Secure is a secure connection with a web server, protects data from eavesdroppers. It uses TCP port 443
 
- Both HTTP/HTTPs uses a series of verbs, like POST or GET to send and retrieve information to and from a web server.
+ - Both HTTP/HTTPs uses a series of verbs, like POST or GET to send and retrieve information to and from a web server.
 
     DNS (Domain Name System)
- DNS stands for Domain Name System and communicates with the server that uses either TCP or UDP port 53.
+ - DNS stands for Domain Name System and communicates with the server that uses either TCP or UDP port 53.
  Routers forward traffic based on IP address information, not names.
- 
-
 
     DHCP (Dynamic Host Configuration Protocol)
 Dynamic Host Configuration Protocol. This is a super useful protocol which gives us a way to automatically assign IP addresses to our network devices without having to visit each device and do a manual configuration and uses UDP port 67.
 
 The communication process ( D-O-R-A )
 
+ - PC A wants an IP version 4 address, but PC A doesn't know the IP address of the DHCP server that's going to give it that information. 
 
-PC A wants an IP version 4 address, but PC A doesn't know the IP address of the DHCP server that's going to give it that information. 
+ - MPC A sends a Discover broadcast asking if there is a DHCP server somewhere out there on the network.
+- DHCP server receives that discover broadcast, it responds to PC A with an Offer message telling PC A the IP address of the DHCP server.
 
-PC A sends a Discover broadcast asking if there is a DHCP server somewhere out there on the network.
-DHCP server receives that discover broadcast, it responds to PC A with an Offer message telling PC A the IP address of the DHCP server.
+- PC A,send out a Request message asking the DHCP server for IPv4 address information.
 
-PC A,send out a Request message asking the DHCP server for IPv4 address information.
-
-DHCP server acknowledges the request message with an  Acknowledgement message, it provides PC A with its IP address, subnet mask, default gateway, maybe other parameters such as the address of a DNS server.
+- DHCP server acknowledges the request message with an  Acknowledgement message, it provides PC A with its IP address, subnet mask, default gateway, maybe other parameters such as the address of a DNS server.
 
 N/B: Where routers are envolved, the router is configured to forward discover broadcasts to the DHCP server.
 
 DHCP Servers for IPV6 Version to be updated on state ansd stateless DHCP v6 servers.
 
     NAT(Network Address Translation)
-NAT allows us to have one set of IP addresses inside of our network and have those IP addresses translated into one or more IP addresses that can be routed on the public internet.
+- NAT allows us to have one set of IP addresses inside of our network and have those IP addresses translated into one or more IP addresses that can be routed on the public internet.
 
-In IPv4, there are some specific ranges of IP addresses that are designated for private use and cannot use them on the public internet.  IP addresses on the inside of our networks have to be translated into one or more publicly ratable IP addresses.
+- In IPv4, there are some specific ranges of IP addresses that are designated for private use and cannot use them on the public internet.  IP addresses on the inside of our networks have to be translated into one or more publicly ratable IP addresses.
 
-Publicly ratable addresses range between 192.0.2.101 and 192.0.2.199.
+N/B; Publicly ratable addresses range between 192.0.2.101 and 192.0.2.199.
 
-Routers are configured for NAT and they take the client ones private IP address of 10.1.1.1, and get it translated to the publicly ratable IP address from that pool.
+- Routers are configured for NAT and they take the client ones private IP address of 10.1.1.1, and get it translated to the publicly ratable IP address from that pool.
 
-inside a local address refers to the IP address of a device inside our network while inside globally address refers to the to device on the outside of our network.
+- inside a local address refers to the IP address of a device inside our network while inside globally address refers to the to device on the outside of our network.
 
-Dynamic NAT is dynamically translating multiple inside local addresses into multiple inside global addresses.
+- Dynamic NAT is dynamically translating multiple inside local addresses into multiple inside global addresses.
 
     NTP (Network Time Provider)
 
