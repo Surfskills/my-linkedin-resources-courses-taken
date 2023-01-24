@@ -27,11 +27,12 @@ Monitoring and maintenance of global network is one of big challenge of current 
 
     MOST COMMON CORPORARE RESOURCE ISSUES
 
+.
 
     COMMON HOME NETWORKING ISSUES
 
- = Remote access to the corporate network.
- = When you're remoted into another server but you're trying to print locally at your home.
- = Network slowness
- = Not seeing other PCs in the network.
- = Dropped connections.
+ - Remote access to the corporate network.
+ - When you're remoted into another server but you're trying to print locally at your home.
+ - Network slowness
+ - Not seeing other PCs in the network.
+ - Dropped connections.
