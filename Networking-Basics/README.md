@@ -133,7 +133,8 @@ N/B; Publicly ratable addresses range between 192.0.2.101 and 192.0.2.199.
 
 - inside a local address refers to the IP address of a device inside our network while inside globally address refers to the to device on the outside of our network.
 
-- Dynamic NAT is dynamically translating multiple inside local addresses into multiple inside global addresses.
+- Dynamic NAT is dynamically translating multiple inside local addresses into multiple inside global addresses
+
 
     NTP (Network Time Provider)
 
